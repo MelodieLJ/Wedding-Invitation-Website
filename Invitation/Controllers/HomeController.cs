@@ -12,6 +12,7 @@ namespace Invitation.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.Msg = "Mel and Art's wedding";
             return View();
         }
 
